@@ -14,7 +14,7 @@ workflows:
                 # - google_play # <-- (Includes GCLOUD_SERVICE_ACCOUNT_CREDENTIALS <-- Put your google-services.json)
             vars:
                 PACKAGE_NAME: "com.testproject" # <-- Put your package name here e.g. com.domain.myapp
-            node: latest
+            node: v14.18.1
         triggering:
             events:
                 - push
