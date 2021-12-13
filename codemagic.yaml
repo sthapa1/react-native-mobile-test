@@ -21,7 +21,7 @@ workflows:
                 - push
 
             branch_patterns:
-                - pattern: master
+                - pattern: develop
                   include: true
                   source: true
         scripts:
